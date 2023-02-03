@@ -1,0 +1,14 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1260170620	Play_RockinRobin			\Default Work Unit\Play_RockinRobin	
+	2390953719	GGBlue			\Default Work Unit\GGBlue	
+	2451022805	Play_HarderBetterFasterStronglike			\Default Work Unit\Play_HarderBetterFasterStronglike	
+
+Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
+	1046077243	Silence	Wwise Silence		\Actor-Mixer Hierarchy\Default Work Unit\HBFSMidiTarget\Silence	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	177508022	HarderBetterFasterStronglike	G:\Documents\Teaching\NYU\Classes\2023 Spring\GAMES-UT 213 (Music and Gameplay)\MGProjects.Spring2023\MGProjects.Spring2023_WwiseProject\.cache\Windows\SFX\HarderBetterFasterStronglike_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\HarderBetterFasterStronglike\HarderBetterFasterStronglike		41821896
+	208739530	RockinRobin	G:\Documents\Teaching\NYU\Classes\2023 Spring\GAMES-UT 213 (Music and Gameplay)\MGProjects.Spring2023\MGProjects.Spring2023_WwiseProject\.cache\Windows\SFX\RockinRobin_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\RockinRobin\RockinRobin		28786884
+	531564215	GGRIBShortLoop	G:\Documents\Teaching\NYU\Classes\2023 Spring\GAMES-UT 213 (Music and Gameplay)\MGProjects.Spring2023\MGProjects.Spring2023_WwiseProject\.cache\Windows\SFX\GGRIBShortLoop_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\GGRIBShortLoop\GGRIBShortLoop		12153368
+	891966840	HarderBetterFasterStoMidi	G:\Documents\Teaching\NYU\Classes\2023 Spring\GAMES-UT 213 (Music and Gameplay)\MGProjects.Spring2023\MGProjects.Spring2023_WwiseProject\.cache\Windows\SFX\HarderBetterFasterStoMidi_023C6AD9.wem		\Interactive Music Hierarchy\Default Work Unit\HarderBetterFasterStronglike\HarderBetterFasterStoMidi		4125
+

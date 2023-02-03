@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5ce4988ca0b1d5747ac46de5bf76e3aa, type: 3}
+  m_Name: C628F7CA-E1BF-4143-9B87-3AD667FC7424
+  m_EditorClassIdentifier: 
+  objectName: Play_HarderBetterFasterStronglike
+  id: 2451022805
+  guid: C628F7CA-E1BF-4143-9B87-3AD667FC7424

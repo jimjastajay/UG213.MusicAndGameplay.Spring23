@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProjectInfo>
+	<Project Name="MGProjects.Spring2023_WwiseProject" GUID="{832D7D38-500D-4F15-94CA-A9447CFC5DD2}" Generator="2022.1.1.8100"/>
+	<CacheRoot>../../../../MGProjects.Spring2023_WwiseProject/.cache</CacheRoot>
+	<Platforms>
+		<Platform Name="Windows" GUID="{7B9AC6D0-9147-448A-B739-AA80ED2AFCD6}" BasePlatform="Windows" BasePlatformGUID="{6E0CB257-C6C8-4C5C-8366-2740DFC441EB}" Path="../../../../MGProjects.Spring2023_WwiseProject/GeneratedSoundBanks/Windows"/>
+	</Platforms>
+	<Languages>
+		<Language Name="English(US)" Id="684519430" GUID="{2D6CA9D0-ECEA-4D35-818D-F7E5FF4ACC11}" Default="true" UseAsStandIn="true"/>
+	</Languages>
+	<FileHash>{C0A8F358-038C-76D3-679C-249D0B50051E}</FileHash>
+</ProjectInfo>

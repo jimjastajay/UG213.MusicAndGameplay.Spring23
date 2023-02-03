@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="145">
+	<RootPaths>
+		<ProjectRoot>../..</ProjectRoot>
+		<SourceFilesRoot>../../.cache/Windows</SourceFilesRoot>
+		<SoundBanksRoot>.</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>.</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{87C7EC9E-8DA4-C32E-47CA-258D55D21B6E}">
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+			<Plugins>
+				<AudioDevices>
+					<Plugin Id="2317455096" Name="No_Output" LibName="No Output" LibId="11862023"/>
+					<Plugin Id="3859886410" Name="System" LibName="System" LibId="11403271"/>
+				</AudioDevices>
+			</Plugins>
+			<Busses>
+				<Bus Id="3803692087" Name="Master Audio Bus"/>
+			</Busses>
+		</SoundBank>
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{16899F30-17BC-6B84-4E7E-72007A9E9041}">
+			<ShortName>Main</ShortName>
+			<Path>Main.bnk</Path>
+			<Media>
+				<File Id="177508022" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>HarderBetterFasterStronglike.wav</ShortName>
+					<CachePath>SFX/HarderBetterFasterStronglike_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="208739530" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>RockinRobin.wav</ShortName>
+					<CachePath>SFX/RockinRobin_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="531564215" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>GGRIBShortLoop.wav</ShortName>
+					<CachePath>SFX/GGRIBShortLoop_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="891966840" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>HarderBetterFasterStoMidi.mid</ShortName>
+					<CachePath>SFX/HarderBetterFasterStoMidi_023C6AD9.wem</CachePath>
+				</File>
+			</Media>
+			<Plugins>
+				<Custom>
+					<Plugin Id="1046077243" Name="Silence" LibName="Wwise Silence" LibId="6619138"/>
+				</Custom>
+			</Plugins>
+			<Events>
+				<Event Id="2390953719" Name="GGBlue" DurationType="OneShot" DurationMin="69.34549" DurationMax="69.34549">
+					<MediaRefs>
+						<MediaRef Id="531564215"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2451022805" Name="Play_HarderBetterFasterStronglike" DurationType="OneShot" DurationMin="237.08504" DurationMax="237.08504">
+					<MediaRefs>
+						<MediaRef Id="177508022"/>
+						<MediaRef Id="891966840"/>
+					</MediaRefs>
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="1046077243"/>
+						</Custom>
+					</PluginRefs>
+				</Event>
+				<Event Id="1260170620" Name="Play_RockinRobin" DurationType="OneShot" DurationMin="163.1904" DurationMax="163.1904">
+					<MediaRefs>
+						<MediaRef Id="208739530"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{07AB3BFB-43FF-5A2B-AE61-2639BD763E8A}</FileHash>
+</SoundBanksInfo>

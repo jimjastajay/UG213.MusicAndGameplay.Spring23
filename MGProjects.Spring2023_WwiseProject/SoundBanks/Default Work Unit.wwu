@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{003AD9E1-979B-4E47-A9AC-39936097319A}" SchemaVersion="110">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{003AD9E1-979B-4E47-A9AC-39936097319A}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="Main" ID="{DD47BC13-D172-4FC3-BCE1-6B5062DC1810}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Play_HarderBetterFasterStronglike" ID="{C628F7CA-E1BF-4143-9B87-3AD667FC7424}" WorkUnitID="{096C9541-CFD3-43BE-99C2-C6D515CCEA0E}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="GGBlue" ID="{64C83563-F128-4A8D-9E1B-91975BB133AC}" WorkUnitID="{096C9541-CFD3-43BE-99C2-C6D515CCEA0E}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_RockinRobin" ID="{D02894F4-A520-4FC4-8E25-D100A34A5338}" WorkUnitID="{096C9541-CFD3-43BE-99C2-C6D515CCEA0E}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

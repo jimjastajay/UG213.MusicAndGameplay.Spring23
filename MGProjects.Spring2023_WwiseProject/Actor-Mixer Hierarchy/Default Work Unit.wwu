@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{85ADD89B-DC1C-4844-92F3-FD5555D172A2}" SchemaVersion="110">
+	<AudioObjects>
+		<WorkUnit Name="Default Work Unit" ID="{85ADD89B-DC1C-4844-92F3-FD5555D172A2}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="A" ID="{30115CA0-A490-4761-8563-821E32D85780}" ShortID="466308427">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5F98C26E-7A05-4B31-B56E-EEF3FA37210C}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A68C7B49-8BEE-4E21-8E52-731866175AEC}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="A" ID="{04C7B184-21C9-41A0-B8A6-4551AF71E76A}">
+							<Language>SFX</Language>
+							<AudioFile>A.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="1024323431"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="A" ID="{04C7B184-21C9-41A0-B8A6-4551AF71E76A}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="HBFSMidiTarget" ID="{1BC02F2D-FDBF-4BC6-92CE-253E33FA8FA5}" ShortID="369101997">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5F98C26E-7A05-4B31-B56E-EEF3FA37210C}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A68C7B49-8BEE-4E21-8E52-731866175AEC}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<SourcePlugin Name="Silence" ID="{B384EE36-3C7C-4A90-A171-81D44A2FB68C}" ShortID="1046077243" PluginName="Wwise Silence" CompanyID="0" PluginID="101">
+							<Language>SFX</Language>
+						</SourcePlugin>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Silence" ID="{B384EE36-3C7C-4A90-A171-81D44A2FB68C}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="PianoC4" ID="{8115B513-C6FD-41C7-9F2D-05B0C5D02C16}" ShortID="75577965">
+					<PropertyList>
+						<Property Name="EnableMidiNoteTracking" Type="bool" Value="True"/>
+						<Property Name="MidiTrackingRootNote" Type="int32" Value="72"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5F98C26E-7A05-4B31-B56E-EEF3FA37210C}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A68C7B49-8BEE-4E21-8E52-731866175AEC}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="PianoC4" ID="{C00A877E-13DE-45B2-9A15-BCFDE4C4686C}">
+							<Language>SFX</Language>
+							<AudioFile>PianoC4.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="281651144"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="PianoC4" ID="{C00A877E-13DE-45B2-9A15-BCFDE4C4686C}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>
