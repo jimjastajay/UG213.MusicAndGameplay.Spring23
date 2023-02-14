@@ -14,9 +14,6 @@ public class BallSpawner : MonoBehaviour {
     Args beatArgs;
     public Transform ball;
 
-    [SerializeField]
-    TickValue tickValue = TickValue.Quarter;
-
     bool pleaseSpawn;
 
     [SerializeField]
@@ -24,14 +21,14 @@ public class BallSpawner : MonoBehaviour {
 
     #region Delegates
     private void OnEnable() {
-        //clock.Beat += SpawnBall;
+        clock.Beat += SpawnBall;
     }
     private void OnDisable() {
-        //clock.Beat -= SpawnBall;
+        clock.Beat -= SpawnBall;
     }
     #endregion
 
-    void SpawnBall(Args beatArgs) {
+    void SpawnBall(Beat.Args beatArgs) {
         pleaseSpawn = true;
     }
     void SpawnBall() {
@@ -41,17 +38,17 @@ public class BallSpawner : MonoBehaviour {
     }
 
     void KeyboardInput() {
-        if (Input.GetKeyDown(KeyCode.Space))
-            SpawnBall();
+        //if (Input.GetKeyDown(KeyCode.Space))
+        //    SpawnBall();
     }
     private void Update() {
+        //KeyboardInput();
         if (pleaseSpawn) {
             SpawnBall();
         }
-        KeyboardInput();
-        //if (Input.GetKeyDown(KeyCode.Space)) {
-        //    clock.SetBPM(BPM);
-        //}
+        if (Input.GetKeyDown(KeyCode.Space)) {
+            clock.SetBPM(BPM);
+        }
     }
 
 }
